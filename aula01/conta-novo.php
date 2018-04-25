@@ -45,7 +45,7 @@
 		}
 
 		public function fecharConta(){
-			if($this.verSaldo()!=0){
+			if($this->verSaldo()!=0){
 				return ($this->verSaldo()>0)?'Saldo acima de zero'.$this->verSaldo():'Saldo abaixo de zero'.$this->verSaldo();
 			}
 		}
