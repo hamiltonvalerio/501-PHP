@@ -6,9 +6,8 @@ use Lib\ViewModel\ViewModel;
 
 class HomeController
 {
-
 	private $viewModel;
-
+	
 	public function __construct(){
 		$this->viewModel = new ViewModel();
 	}

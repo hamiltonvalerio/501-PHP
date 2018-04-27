@@ -1,8 +1,8 @@
 <?php 
 
-const BASEDIR = '/var/www/html/501-PHP/aula05/MVC/MVC4';
+const BASEDIR = '/var/www/html/501/aula05/MVC/MVC5';
 
-const DBUSER = 'hamilton';
+const DBUSER = 'lucas';
 const DBPASS = '123';
 const DBNAME = 'aula';
 const DBHOST = 'localhost';

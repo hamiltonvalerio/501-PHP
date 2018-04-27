@@ -13,13 +13,20 @@ class UserController
 	{
 		$this->viewModel = new ViewModel();
 	}
+	
 	public function index()
 	{
 		$users = User::all();
 		$this->viewModel->render('user/index',['users' => $users]);
 	}
-	public function new(){}
+	
+	public function new()
+	{
+		$this->viewModel->render('user/form');
+	}
+	
 	public function edit(){}
+	
 	public function create()
 	{
 		print_r($_POST);
